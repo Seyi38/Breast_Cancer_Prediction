@@ -1,6 +1,6 @@
 # Predicting Breast Cancer
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/Downloads/breast_cancer.jpg)
 Format: ![Alt Text](url)
 
 
