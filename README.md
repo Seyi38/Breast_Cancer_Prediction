@@ -1,7 +1,7 @@
 # Predicting Breast Cancer
 
 
-#OVERVIEW
+## OVERVIEW
 
 Breast cancer is cancer that forms in the cells of the breasts
 
@@ -13,7 +13,7 @@ Source: https://www.cancer.org/cancer/breast-cancer/about/what-is-breast-cancer.
 
 According to the American Cancer Society (ACS), there are more than 3.1 million breast cancer survivors in the United States. The chance of any woman dying from breast cancer is around 1 in 38 (2.6%).
 
-#Symptoms
+### Symptoms
 
 1. A painless lump or thickening in your breast tissue
 2. Pain in the armpits or breast that does not change with the monthly cycle
@@ -24,8 +24,11 @@ According to the American Cancer Society (ACS), there are more than 3.1 million 
 7. A change in the size or shape of the breast
 8. Peeling, flaking, or scaling of the skin on the breast or nipple
 
-#Risk Factors
-The risk factors for breast cancer are due to a combination of factors that are not in our control and some that are in our control. There is a possibility of someone getting breast cancer without possesing any know risk factor (source: https://www.cdc.gov/cancer/breast/basic_info/risk_factors.htm)
+### Risk Factors
+
+The risk factors for breast cancer are due to a combination of factors that are not in our control and some that are in our control. 
+
+There is a possibility of someone getting breast cancer without possesing any know risk factor (source: https://www.cdc.gov/cancer/breast/basic_info/risk_factors.htm)
 
 1. Age
 2. Genetics
