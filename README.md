@@ -59,7 +59,7 @@ It’s important to understand that most breast lumps are benign and not cancer 
 
 Breast cancer is a leading form of cancer in women and although rare, affects men too. Early detection and accurately distinguishing between benign and malignant tumours increases a patient's chances of sruvival. Awareness, funding and technology have advanced the detection and treatment of breast cancer. This project aims to accurately predict whether a breast tumour is malignant or benign using machine learning classification algorithms.
 
-##DATA OVERVIEW
+## DATA OVERVIEW
 
 ### Data Set Information:
 
@@ -121,4 +121,8 @@ All feature values are recoded with four significant digits.
 	
 The data was mostly clean with all the data having the right data type and just one column 'Unnamed: 32' with missing values which was dropped.
 
-## Exploratory Analysis
+## EXPLORATORY ANALYSIS
+
+A plot of the class distribution shows that 357 of the tumours in the dataset are benign while 212 of the tumours are malignent. This is seen in the plot below.
+
+
