@@ -1,7 +1,7 @@
 # Predicting Breast Cancer
 
 
-#CONTENTS:
+## CONTENTS:
 
 1. Breast Cancer Overview
 2. Problem Statement
@@ -103,5 +103,22 @@ All feature values are recoded with four significant digits.
 
 9. Class distribution: 357 benign, 212 malignant
 
+### DATA PREPROCESSING
 
-![image](https://user-images.githubusercontent.com/20461822/131932818-f081f75f-701e-4dd0-8875-828940a64fbb.png)
+1. The data was read into a Pandas Dataframe
+2. The number of rows and columns was checked:
+	There were 569 rows and 33 columns
+3. A check for missing values was done:
+	The dataset contained a column called 'Unnamed: 32' with 100% missing values, this column was
+	dropped.
+	All other columns in the dataset had no missing value.
+4. The data type of the columns was checked:
+	The columns had appropriate data types, the feature columns were float64, id column int64 and
+	dianosis an object datatype.
+5. The distribution of tumor classes was checked:
+	357 B(benign) and 212 M(malignant)
+6. The 'ID' column was dropped
+	
+The data was mostly clean with all the data having the right data type and just one column 'Unnamed: 32' with missing values which was dropped.
+
+## Exploratory Analysis
