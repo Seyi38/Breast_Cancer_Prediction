@@ -125,5 +125,5 @@ The data was mostly clean with all the data having the right data type and just 
 
 A plot of the class distribution shows that 357 of the tumours in the dataset are benign while 212 of the tumours are malignent. This is seen in the plot below.
 
-!https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/class%20distribution.png
+! https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/class%20distribution.png
 
