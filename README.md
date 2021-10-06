@@ -169,7 +169,7 @@ Concave points_worst has the highest correlation with the diagnosis
 
 ### MODEL PEFORMANCE 
 
-The Decision Tree model had the least perfomance on our dataset with a 94% accuracy score on the test set. 3 malignant tumours were wrongly classified as benign while 4 benign tumors were wrongly classified as malignant.
+The Decision Tree model had the least perfomance on our dataset with a 94% accuracy score on the test set. 3 malignant tumours were wrongly classified as benign while 4 benign tumors were wrongly classified as malignant. This is shown in the confusion matrix before.
 
 ![Confusion Matrix](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/DT_CMatrix.png)
 
@@ -204,4 +204,7 @@ Ranking our models on how well they detect cancerous tumors on this dataset;
 
 
 ## CONCLUSION
+From our analysis, malignant tumours vary in the size of their features and have typically larger feature values than benign tumours. Concave points, concavity, area and radius are the features which are most correlated to the diagnosis. On average, these features have mean values of around 0.087990,0.160775,978.376415 and 17.462830 respectively.
+Malignant breast cancer tumours as can been seen from their average feature values have rougher textures and less symmetrical than benign breast cancer tumours which are smoother and rounder.
 
+To monitor and improve the perfomance of our KNN and Logistic Regression model, we will need to run our prediction on more data outside of our validation set to see if our model was overffitted to the test set.
