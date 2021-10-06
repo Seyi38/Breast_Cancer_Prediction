@@ -126,13 +126,17 @@ The data was mostly clean with all the data having the right data type and just 
 
 A plot of the class distribution shows that 357 of the tumours in the dataset are benign while 212 of the tumours are malignent. This is seen in the plot below.
 
-![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/Classification.png)
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/classification.png)
 
 Malignant tumours have larger radius on average.
 
 The features of Malignant tumours as seen from the boxplot are larger and have great variability than those of the benign tumours. 
 
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/average%20radius.png)
+
 When we compare the features of the Benign and Malignant tumours, we see that Malignant tumors have larger features on average hence size could be a distinguishing factor between benign and malignant tumours.
+
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/features.png)
 
 ## FEATURE SELECTION
 
