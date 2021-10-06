@@ -146,7 +146,16 @@ The heatmaps below show the correlation of the mean, standard error and worst ra
 
 ![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/mean_features.png)
 
+Concave points mean has the highest correlation and fractal dimension mean which is negatively correlated, the least correlated of the mean features
+
 ![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/se_features.png)
 
 ![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/worst_radius.png)
+
+Concave points_worst has the highest correlation with the diagnosis
+
+
+## MODEL SELECTION AND PEFORMANCE
+
+## CONCLUSION
 
