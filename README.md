@@ -52,7 +52,7 @@ There is a possibility of someone getting breast cancer without possesing any kn
 8. 8. Radiation exposure
 9. Hormone treatments
 
-It’s important to understand that most breast lumps are benign and not cancer (malignant). Non-cancerous breast tumors are abnormal growths, but they do not spread outside of the breast. They are not life threatening, but some types of benign breast lumps can increase a woman's risk of getting breast cancer. Any breast lump or change needs to be checked by a health care professional to determine if it is benign or malignant (cancer) and if it might affect your future cancer risk. (:https://www.cancer.org/cancer/breast-cancer/about/what-is-breast-cancer.html)
+It’s important to understand that most breast lumps are benign and not cancer (malignant). Non-cancerous breast tumors are abnormal growths, but they do not spread outside of the breast. They are not life threatening, but some types of benign breast lumps can increase a woman's risk of getting breast cancer. Any breast lump or change needs to be checked by a health care professional to determine if it is benign or malignant (cancer) and if it might affect your future cancer risk. (https://www.cancer.org/cancer/breast-cancer/about/what-is-breast-cancer.html)
 
 
 ## PROBLEM STATEMENT
@@ -156,6 +156,52 @@ Concave points_worst has the highest correlation with the diagnosis
 
 
 ## MODEL SELECTION AND PEFORMANCE
+
+### PROCESS
+
+1. Created X and y variables for the features and target respectively
+2. Normalized our features using sklearn's preprocessing module.
+3. Split the data into train and test sets
+4. Initialized different models and fit them with the training data. Random Forests, xgBoost, K-NN, Decision Trees and Logistic Regression models were selected.
+6. Evaluated the models on the test set
+7. Paramater tuning:
+ Grid Search CV was used to tune the parameters of the Random Forest and xgBoost model. An optimal K value was also selected for the K Nearest Neighbour after interating over a range of values. 
+
+### MODEL PEFORMANCE 
+
+The Decision Tree model had the least perfomance on our dataset with a 94% accuracy score on the test set. 3 malignant tumours were wrongly classified as benign while 4 benign tumors were wrongly classified as malignant.
+
+![Confusion Matrix](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/DT_CMatrix.png)
+
+The Random Forest and xgBoost model has accuracy of 98% and 96% respectively on the test set.
+
+Our KNN and Logistic Regression models had the best accuracy and evaluation metrics on our test set.
+
+For the KNN, an optimal K value of 11 was selected after iterating over a range of 20 values.
+
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/k_value.png)
+
+The KNN and Logistic regression model accurately classified both malignant and benign tumors and predicted accurately, 100% of the malignant tumours on the test set. This can be seen in the confusion Matrix below:
+
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/confusion_matrix.png)
+
+###### MODEL PEFORMANCE REPORT
+
+| Algorithm          |Accuracy| Jaccard  | F1-score| LogLoss |
+|--------------------|--------|----------|---------|---------|
+| Random Forest      | 0.98   | 0.95     | 0.98    | NA      |
+| XgBoost            | 0.96   | 0.90     | 0.97    | NA      |
+| KNN                | 1.00   | 1.00     | 1.00    | NA      |
+| Decision Trees     | 0.94   | 0.84     | 0.94    | NA      |
+| LogisticRegression | 1.00   | 1.00     | 1.00    | 0.17    |
+
+Ranking our models on how well they detect cancerous tumors on this dataset;
+1. K Nearest Neighbours
+1. Logistic Regression
+3. Random Forest
+4. XgBoost
+5. Decision Trees
+
 
 ## CONCLUSION
 
