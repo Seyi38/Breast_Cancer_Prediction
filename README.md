@@ -140,4 +140,13 @@ When we compare the features of the Benign and Malignant tumours, we see that Ma
 
 ## FEATURE SELECTION
 
+The mean, standard error and worst radius of the radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry and fractal dimension were selected as the features for our models due to their correlation with the target.
+
+The heatmaps below show the correlation of the mean, standard error and worst radius of the features to the target variable.
+
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/mean_features.png)
+
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/se_features.png)
+
+![Alt Text](https://github.com/Seyi38/Breast_Cancer_Prediction/blob/main/Images/worst_radius.png)
 
